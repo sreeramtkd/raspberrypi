@@ -1,3 +1,4 @@
+# sudo pip install telepot telegram
 from datetime import datetime
 import time
 import telepot
