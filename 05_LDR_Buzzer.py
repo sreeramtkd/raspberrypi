@@ -1,11 +1,11 @@
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
-pir=18
-GPIO.setup(pir, GPIO.IN)
+ldr=18
+GPIO.setup(ldr, GPIO.IN)
 
 while True:
-    if(GPIO.input(pir)==0):
+    if(GPIO.input(ldr)==1):
         print("LIGHT Detected....!")
     else:
         print("Watching...")
