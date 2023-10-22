@@ -1,7 +1,7 @@
 import RPi.GPIO as gpio
 from picamera import PiCamera
 import time
-pir=4
+pir=23
 i=0
 gpio.setmode(gpio.BCM)
 gpio.setup(pir,gpio.IN)
