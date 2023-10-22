@@ -33,15 +33,15 @@ def handle(msg):
     #if you want to allow access only from a certain user enable the below line and use intentaion for the rest of the LOCs untill MessageLoop, To get your telegram ID use underinfobot
     #if(msg['from']['id']==************):
     if(msg['text'] == '/on'):
-        on(26)
-        state = GPIO.input(26)
+        on(5)
+        state = GPIO.input(5)
         if(state==1):
             bot.sendMessage(chat_id, "LED Is Turned ON")
         else:
             bot.sendMessage(chat_id, "An Error Occured...")
     if(msg['text'] == '/off'):
-        off(26)
-        state = GPIO.input(26)
+        off(5)
+        state = GPIO.input(5)
         if(state==0):
             bot.sendMessage(chat_id, "LED Is Turned OFF")
         else:
