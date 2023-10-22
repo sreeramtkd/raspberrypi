@@ -12,7 +12,7 @@ while True:
 		while (i<=2):
 			camera.capture('/home/pi/Desktop/image%s.jpg' % i)
 			print("Capturing...",i)
-			time.sleep(3)
+			time.sleep(1)
 			i=i+1
 		camera.close()
 		i=0
