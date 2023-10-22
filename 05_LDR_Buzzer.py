@@ -5,8 +5,8 @@ pir=18
 GPIO.setup(pir, GPIO.IN)
 
 while True:
-    if(!GPIO.input(pir)):
-        print("Watching....!")
+    if(GPIO.input(pir)==0):
+        print("LIGHT Detected....!")
     else:
-        print("LIGHT Detected...")
+        print("Watching...")
     time.sleep(0.5)
