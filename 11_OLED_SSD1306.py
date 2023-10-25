@@ -6,6 +6,7 @@
 #SDA (Physical pin 3)
 #SCL (Physical pin 5
 #Add cron at reboot @reboot python3 
+# DHT11 connected to GPIO04
 import time,subprocess,busio,socket
 from board import SCL, SDA
 from oled_text import OledText, Layout64, BigLine, SmallLine
