@@ -39,5 +39,5 @@ while True:
     oled.text(str(temperature)+" °", 2)
     time.sleep(3)
     oled.text('\uf73d',1)
-    oled.text(str(humidity)+" °", 2)
+    oled.text(str(humidity)+" %", 2)
     time.sleep(3)
