@@ -9,8 +9,7 @@ from telepot.loop import MessageLoop
 
 GPIO.setmode(GPIO.BCM)
 LED=[26,19,13,6,5]
-for i in range(len(LED)):
-    GPIO.setup(LED[i], GPIO.OUT,initial=0)
+GPIO.setup(LED, GPIO.OUT,initial=0)
 
 def on(pin):
     GPIO.output(pin,GPIO.HIGH)
