@@ -9,6 +9,7 @@ gpio.setup(pir,gpio.IN)
 while True:
 	while gpio.input(pir):
 		camera = PiCamera()
+		camera.resolution = (800, 600)
 		while (i<=4):
 			camera.capture('/var/www/html/img/image%s.jpg' % i)
 			print("Capturing...",i)
