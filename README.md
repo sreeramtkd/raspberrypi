@@ -7,7 +7,7 @@ Raspberry PI is a cheap computer that runs Linux based OS & allows you to intera
 **<h2>Steps to configure Raspberry PI:</h2>**
 **<h3>Headless Method (SSH):</h3>** 
 
-Navigate to https://www.raspberrypi.com/software/ and download the Raspberry Pi Imager software for your system, this allows you to select the flavour of raspberrypi OS & pre-configure the wifi, enable remote connectivity using SSH / VNC. <br> 
+Navigate to https://www.raspberrypi.com/software/ and download the Raspberry Pi Imager software for your system, this allows you to select the flavour of raspberrypi OS & pre-configure the wifi, enable remote connectivity using SSH. <br> 
 * This instruction is written for Raspberry Pi imager V1.8.4_ <br>
     * Open the Imager Software and select "Raspberry Pi Zero W" Or the device that you own <br> 
     * Select your SD Card (Make sure to format it using the Erase option from OS Menu) <br> 
@@ -37,5 +37,6 @@ Navigate to https://www.raspberrypi.com/software/ and download the Raspberry Pi 
  	* sudo apt-get upgrade -y
 <br><br>
 
+<h2>RPI Simple Hat</h2>
 
 ![circuit (3)](https://github.com/sreeramtkd/raspberrypi/assets/25638554/067811ea-2c3a-4706-b35d-34977430606f)
