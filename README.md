@@ -10,7 +10,7 @@ Raspberry PI is a cheap computer that runs Linux based OS & allows you to intera
 **Headless Method:** 
 
 Navigate to https://www.raspberrypi.com/software/ and download the Raspberry Pi Imager software for your system, this allows you to select the flavour of raspberrypi OS & pre-configure the wifi, enable remote connectivity using SSH / VNC. <br> 
-* _This instruction is written for Raspberry Pi imager V1.8.4_ <br>
+* This instruction is written for Raspberry Pi imager V1.8.4_ <br>
     * Open the Imager Software and select "Raspberry Pi Zero W" Or the device that you own <br> 
     * Select your SD Card (Make sure to format it using the Erase option from OS Menu) <br> 
     * Select the OS, Go to "Raspberry Pi OS (Other)" --> Select "Raspberry Pi OS Lite (32-bit)" that has no Desktop Environment. <br> 
