@@ -8,7 +8,8 @@ Raspberry PI is a cheap computer that runs Linux based OS & allows you to intera
   Headless method (SSH / VNC)
   Connect all pheriperals (Keyboard, Mouse, Monitor)
 
-** Headless Method:**
+** Headless Method:** 
+
     <br> Navigate to https://www.raspberrypi.com/software/ and download the Raspberry Pi Imager software for your system, this allows you to select the flavour of raspberrypi OS & pre-configure the wifi, enable remote connectivity using SSH / VNC. <br> 
      _This instruction is written for Raspberry Pi imager V1.8.4_ <br> 
      Open the Imager Software and select "Raspberry Pi Zero W" Or the device that you own <br> 
