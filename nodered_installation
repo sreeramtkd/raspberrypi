@@ -1,0 +1,1 @@
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install apache2 mosquitto mosquitto-clients npm nodered ffmpeg v4l-utils libpq5 libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev -y && sudo npm install -g npm -y
