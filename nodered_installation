@@ -1,2 +1,4 @@
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install apache2 mosquitto mosquitto-clients ffmpeg v4l-utils libpq5 libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev npm nodered -y
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+npm install node-red-contrib-ui && npm install node-red-contrib-gpio && node-red-dashboard && node-red-contrib-dht-sensor
+
