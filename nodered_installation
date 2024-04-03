@@ -1,7 +1,2 @@
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install apache2 mosquitto mosquitto-clients ffmpeg v4l-utils libpq5 libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev npm nodered -y
-sudo npm install -g node-red
-sudo wget https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/nodered.service -O /lib/systemd/system/nodered.service
-sudo wget https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/node-red-start -O /usr/bin/node-red-start
-sudo wget https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/node-red-stop -O /usr/bin/node-red-stop
-sudo chmod +x /usr/bin/node-red-st*
-sudo systemctl daemon-reload
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
