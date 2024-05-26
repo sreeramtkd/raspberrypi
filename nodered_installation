@@ -1,3 +1,6 @@
+#Run the below commands in unix shell 
+
+
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install apache2 mosquitto mosquitto-clients ffmpeg v4l-utils libpq5 libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev npm nodered -y
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 cd ~/node_modules
