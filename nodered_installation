@@ -6,6 +6,6 @@ sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install apache
 echo yes | bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) --node20
 cd ~/.node-red/node_modules
 
-sudo npm install node-red-contrib-ui && sudo npm install node-red-contrib-gpio && sudo node-red-dashboard && sudo node-red-contrib-dht-sensor
+sudo npm install node-red-contrib-ui && sudo npm install node-red-contrib-gpio && sudo npm install node-red-dashboard && sudo npm install node-red-contrib-dht-sensor
 sudo systemctl enable nodered.service
 
