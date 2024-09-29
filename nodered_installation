@@ -4,8 +4,14 @@
 sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install apache2 mosquitto mosquitto-clients ffmpeg v4l-utils libpq5 libssl-dev libcurl4-openssl-dev libjpeg-dev libz-dev build-essential git curl npm -y
 
 echo yes | bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) --node20
+
 cd ~/.node-red/node_modules
 
-sudo npm install node-red-contrib-ui && sudo npm install node-red-contrib-gpio && sudo npm install node-red-dashboard && sudo npm install node-red-contrib-dht-sensor
+sudo npm install node-red-dashboard 
+sudo npm install node-red-contrib-dht-sensor
+sudo npm install node-red-contrib-camerapi
+sudo npm install node-red-node-base64
+sudo npm install node-red-node-pi-gpio
+
 sudo systemctl enable nodered.service
 
