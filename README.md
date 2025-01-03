@@ -40,3 +40,6 @@ Navigate to https://www.raspberrypi.com/software/ and download the Raspberry Pi 
 <h2>RPI Simple Hat</h2>
 
 ![circuit (3)](https://github.com/sreeramtkd/raspberrypi/assets/25638554/067811ea-2c3a-4706-b35d-34977430606f)
+
+<h2>Install Node-Red</h2>
+curl -L https://raw.githubusercontent.com/sreeramtkd/raspberrypi/refs/heads/main/nodered_installation | bash
