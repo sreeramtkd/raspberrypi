@@ -1,0 +1,1 @@
+curl -L https://raw.githubusercontent.com/sreeramtkd/raspberrypi/refs/heads/main/nodered_installation | bash
