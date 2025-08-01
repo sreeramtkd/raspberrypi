@@ -16,6 +16,6 @@ sudo npm install node-red-node-pi-gpio
 echo "Installing Node-Red Service"
 sudo systemctl enable nodered.service
 sudo apt-get autoclean
-sudo apt-get autoremove
+sudo apt-get autoremove -y
 echo "Done Bye... !"
 sudo reboot
