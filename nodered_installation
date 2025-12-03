@@ -8,11 +8,11 @@ echo yes | bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-inst
 
 cd ~/.node-red/node_modules
 echo "Adding modules.."
-sudo npm install node-red-dashboard 
 sudo npm install node-red-contrib-dht-sensor
 sudo npm install node-red-contrib-camerapi
 sudo npm install node-red-node-base64
 sudo npm install node-red-node-pi-gpio
+sudo npm install @flowfuse/node-red-dashboard
 echo "Installing Node-Red Service"
 sudo systemctl enable nodered.service
 sudo apt-get autoclean
